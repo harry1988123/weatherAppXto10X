@@ -1,5 +1,4 @@
-const access_key = '303679edd6331634577c7de4a86e576f';
-const API_URL = `http://api.weatherstack.com/current?access_key=${access_key}`;
-console.log(API_URL)
+const access_key = '0d2e05d174dec804d3198bf8a61c897c';
+const API_URL = `http://api.weatherstack.com/current?access_key=${access_key}`; 
 
 export default API_URL;

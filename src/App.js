@@ -9,7 +9,7 @@ function App() {
   const [location, setLocation] = useState("london"); 
 
   const fetchData = async () =>{
-    await fetch(`http://api.weatherstack.com/current?access_key=0d2e05d174dec804d3198bf8a61c897c&query=${location}`)
+    await fetch(`${API_URL}&query=${location}`)
     .then(res => res.json())
     .then(data =>{
       console.log(data);
